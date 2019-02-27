@@ -1,0 +1,66 @@
+[
+   {
+       "constant": true,
+       "inputs": [
+           {
+               "name": "map_index",
+               "type": "bytes32"
+           }
+       ],
+       "name": "read_map",
+       "outputs": [
+           {
+               "name": "",
+               "type": "bytes32[]"
+           },
+           {
+               "name": "",
+               "type": "uint256[]"
+           }
+       ],
+       "payable": false,
+       "stateMutability": "view",
+       "type": "function"
+   },
+   {
+       "constant": false,
+       "inputs": [
+           {
+               "name": "tagId",
+               "type": "bytes32"
+           },
+           {
+               "name": "place",
+               "type": "bytes32[]"
+           },
+           {
+               "name": "timeStamp",
+               "type": "uint256[]"
+           }
+       ],
+       "name": "set_data",
+       "outputs": [
+           {
+               "name": "",
+               "type": "bool"
+           }
+       ],
+       "payable": false,
+       "stateMutability": "nonpayable",
+       "type": "function"
+   },
+   {
+       "constant": true,
+       "inputs": [],
+       "name": "read_tagId",
+       "outputs": [
+           {
+               "name": "",
+               "type": "bytes32[]"
+           }
+       ],
+       "payable": false,
+       "stateMutability": "view",
+       "type": "function"
+   }
+]

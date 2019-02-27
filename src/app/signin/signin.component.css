@@ -1,0 +1,57 @@
+/* body{
+  background-color:whitesmoke;
+} */
+.login_content  {
+    text-align: center;
+    margin-top: 175px;
+    margin-bottom: 25px;
+    color: #73879C;
+}
+
+
+/* body {
+    text-align: center;
+    background: #fcfcfa;
+    color: #818078;
+    font-family: Futura, sans-serif;
+  }
+  
+  .container {
+    max-width: 50%;
+    margin: 40px auto;
+  } */
+
+
+
+h3 {
+ overflow: hidden;
+ text-align: center;
+}
+
+h3:before,
+h3:after {
+ background-color: #818078;
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 20%;
+}
+
+h3:before {
+ right: 0.5em;
+ margin-left: -50%;
+}
+
+h3:after {
+ left: 0.5em;
+ margin-right: -50%;
+}
+
+input[type=text], input[type=password] {
+width: 100%;
+/* margin-left: 20px; */
+text-align: center;
+
+}
